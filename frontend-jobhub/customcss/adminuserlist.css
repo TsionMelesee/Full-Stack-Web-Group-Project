@@ -1,0 +1,42 @@
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar {
+  background-color: #222;
+}
+.navbar-nav {
+  margin-left: auto; 
+  display: flex;
+  gap: 30px; 
+}
+
+.navbar-nav .nav-item {
+  margin-right: 0;
+}
+.card {
+  background-color: #2b18bf;
+  color: #fff;
+  margin: 50px auto 20px; 
+  
+  padding: 40px; 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  
+  bottom: 0;
+  width: 100%;
+}

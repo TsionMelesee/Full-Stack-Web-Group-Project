@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="js/bootstrap.bundle.js">
+  <link rel="stylesheet" href="fetchjs/profile.js"> 
+  <link rel="stylesheet" href="customcss/dashboard.css"> 
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images/job.png" alt="Handy Jobs Logo" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="homepage.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dashboard.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="jobpost.html">Post</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Dashboardemployer.html">Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Dashboarjobseekers.html">Employees</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="card">
+    <h1 class="text-center">User Profile</h1>
+    <div id="profileInfo">
+      <p>Welcome back, [Username]! Below is your profile information:</p>
+      <ul>
+        <li><strong>Username:</strong> [Username]</li>
+        <li><strong>Email:</strong> [Email]</li>
+        <li><strong>Role:</strong> [Role]</li>
+      </ul>
+    </div>
+    <div class="button-container">
+      <button type="button" id="updateUsernameBtn" class="btn btn-warning">Update Username</button>
+      <button type="button" id="updateEmailBtn" class="btn btn-warning">Update Email</button>
+      <button id="displayUserJobsBtn" class="btn btn-warning" type="button">Display Jobs</button>
+    </div>
+    <div id="userJobsCard" class="card job-card">
+      <div class="card-body">
+        <h2 class="text-center">Your Job Postings</h2>
+        <div id="userJobs">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Contact Us</h4>
+          <p>Email: info@handyjobs.com<br>Phone: (555) 123-4567</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Follow Us</h4>
+          <p>Stay connected on social media:<br>
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Location</h4>
+          <p>123 Handy Street, Cityville, State</p>
+        </div>
+      </div>
+    </div>
+    <p>&copy; 2024 Handy Jobs. All rights reserved.</p>
+  </footer>
+
+  <script src="fetchjs/dashboard.js"></script>
+
+</body>
+</html>

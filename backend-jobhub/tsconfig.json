@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strict": true,  // Enable strict mode
+    "noImplicitAny": false,  // It's usually better to have this enabled for stronger typing
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": true,  // Enable consistent casing
+    "noFallthroughCasesInSwitch": true,
+    "types": ["node", "jest", "supertest", "@types/node", "@nestjs/passport", "@nestjs/jwt"]
+
+  }
+}

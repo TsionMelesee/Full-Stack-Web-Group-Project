@@ -1,0 +1,43 @@
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar {
+  background-color: #222;
+}
+.navbar-nav {
+  margin-left: auto; 
+}
+.navbar-nav {
+  margin-left: auto; 
+  display: flex;
+  gap: 30px; 
+}
+
+.navbar-nav .nav-item {
+  margin-right: 0;
+}
+.card {
+  background-color: #99ccff;
+  color: #000;
+  margin: 20px auto; 
+  max-width: 600px;
+  padding: 20px; 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#jobList {
+  text-align: center; 
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
+}
